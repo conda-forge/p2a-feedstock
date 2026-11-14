@@ -1,6 +1,6 @@
 context:
   name: p2a
-  version: "0.1.2"
+  version: "0.1.3"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/p2a/p2a-${{ version }}.tar.gz
-  sha256: 86bead4ed95e52d0fc48dcb429e2a03f08013393226d641eb9580e77de24d00a
+  sha256: 808006701fc083168c74d86c42e0e7d80b02a487f05b4507ba07a69a2a61be04
 
 build:
   number: 0
